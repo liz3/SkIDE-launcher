@@ -6,7 +6,7 @@
   "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "mkdir build && pkg -t latest-macos-x64 -o build/skide_darwin_x64 . && pkg -t latest-linux-x64 -o build/skide_linux_x64 . && pkg -t latest-win-x64 -o build/skide_win32_x64 ."
+    "build": "mkdir build && pkg -t node12-macos-x64 -o build/skide_darwin_x64 . && pkg -t node12-linux-x64 -o build/skide_linux_x64 . && pkg -t node12-win-x64 -o build/skide_win_x64 ."
   },
   "author": "",
   "license": "ISC",

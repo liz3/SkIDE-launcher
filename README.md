@@ -9,7 +9,7 @@ This is a simple cmd Script updating a existing installation of SkIDE.
 On Windows and MacOS the script will try to update the default location for a installation.
 
 On Linux you need to specify the path to the `bin` folder of the installation. when using a custom install location this can be used on the other platforms too:
-- Windows `skide_win32_x64 /path/to/bin`
+- Windows `skide_win_x64 /path/to/bin`
 - mac & Gnu/Linux `./binary /path/to/bin`
 ## building
 

@@ -3,7 +3,7 @@ const fs = require("fs");
 const https = require("https");
 const getBasePath = () => {
   if (process.argv.length > 2) return process.argv[2];
-  if (process.platform === "win32") return "C:SkIDE\\bin\\";
+  if (process.platform === "win32") return "C:\\SkIDE\\bin\\";
   if (process.platform === "darwin")
     return "/Applications/SkIDE.app/Contents/Java/bin/";
   return null;

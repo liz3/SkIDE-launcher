@@ -3,6 +3,10 @@ This repository has two parts, the node js script for standalone updates and sec
 
 This is a simple cmd Script updating a existing installation of SkIDE.
 
+# TODO
+* rebuild mac dmg
+* linux installer?
+
 ## Node updater
 [Download here](https://github.com/liz3/SkIDE-launcher/releases/latest)
 ### Usage
@@ -15,7 +19,8 @@ On Linux you need to specify the path to the `bin` folder of the installation. w
 
 To build the standalone binaries run `npm run build`(doesnt work on windows)
 
-## Standalone uodater
+## Standalone Updater
+[Download here](https://ide.liz3.net)
 The Standalone Updater has the setup files for the installers & the kotlin gradle Project.  
 Building this requires a Couple tools: Isso-setup, launch4j and a portable jre8, but this is mostly included as sake of completeness and should not be of own compile use for a day to day user.
 

@@ -1,2 +1,6 @@
 build
 node_modules
+standalone-updater/build
+standalone-updater/test
+standalone-updater/.gradle
+standalone-updater/.idea
